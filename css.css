@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: rgb(22, 0, 83);
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 85px;
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgb(68, 0, 255);
+}
+
+.button_plan {
+    width: 230px;
+    height: 100px;
+    background-color: transparent;
+    border: 0.5px solid rgb(23, 0, 126);
+    border-radius: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.2s;
+    padding: 20px;
+}
+
+.button_plan:hover {
+    background: rgb(23, 0, 126);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(23, 0, 126), 0 0 40px rgb(23, 0, 126), 0 0 80px rgb(23, 0, 126);
+    transform: scale(1.1);
+}
+
+.sec_info {
+    display: flex;
+    justify-content: center;
+}
+
+.div_text {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p_info {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#p_info {
+    position: absolute;
+}
+#p_1 {
+    position: absolute;
+}
+#p_2 {
+    position: absolute;
+}
+#p_3 {
+    position: absolute;
+}
+#p_4 {
+    position: absolute;
+}
