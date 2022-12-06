@@ -32,6 +32,8 @@ function hideText(x) {
     x.style.transition = "0.5s";
 }
 
+//Funcionalidad de los botones para mostrar texto
+
 btnPfree.onclick = function() {
     document.getElementById("p_1").innerText = infoPlanes[0];
     let x = document.getElementById("p_1");
